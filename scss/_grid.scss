@@ -1,0 +1,55 @@
+@use 'sass:list';
+
+.container {
+  .row {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat($columns, 1fr);
+  }
+}
+
+//Generate gap classes
+@mixin horizontal-gaps($multiplier) {
+  grid-gap: $grid-gap-basis * $multiplier;
+}
+
+@mixin vertical-gaps($multiplier) {
+  margin-top: $grid-gap-basis * $multiplier;
+  margin-bottom: $grid-gap-basis * $multiplier;
+}
+
+@for $i from 1 through $grid-gap-multiples {
+  .gap-#{$i} {
+    @include horizontal-gaps($i);
+    @include vertical-gaps($i);
+  }
+
+  .gapx-#{$i} {
+    @include horizontal-gaps($i);
+  }
+
+  .gapy-#{$i} {
+    @include vertical-gaps($i);
+  }
+}
+
+//Generate responsive column classes
+@for $i from 1 through length($grid-breakpoints) {
+  $prefix: list.nth(list.nth($grid-breakpoints, $i), 1);
+  $value: list.nth(list.nth($grid-breakpoints, $i), 2);
+
+  @media screen and (min-width: $value) {
+    @for $column from 1 through $columns {
+      $new-postfix: null;
+      @if $i == 1 {
+        $new-postfix: #{$column};
+      } @else {
+        $new-postfix: #{$prefix}-#{$column};
+      }
+
+      .col-#{$new-postfix} {
+        grid-column: span $column;
+      }
+    }
+  }
+}

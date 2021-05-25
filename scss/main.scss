@@ -1,1 +1,17 @@
-@use 'reset';
+$columns: 16 !default;
+
+$grid-gap-basis: 0.5rem !default;
+$grid-gap-multiples: 5 !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+@import 'reset';
+
+@import 'grid';
