@@ -1,0 +1,41 @@
+@use 'sass:list';
+
+// Margin and Padding utilities
+$spacing: (
+  m: margin,
+  p: padding,
+);
+
+$directions: (
+  l: left,
+  r: right,
+  t: top,
+  b: bottom,
+);
+
+@function generate-responsive-class-name(
+  $iteration,
+  $base,
+  $breakpoint-name,
+  $modifier: ''
+) {
+  $first-breakpoint-name: list.nth((list.nth($grid-breakpoints, 1)), 1);
+
+  $new-middlefix: null;
+  @if $breakpoint-name == $first-breakpoint-name {
+    $new-middlefix: '';
+  } @else {
+    $new-middlefix: -#{$breakpoint-name};
+  }
+  @return #{$base}#{$modifier}#{$new-middlefix}-#{$iteration};
+}
+
+@mixin spacing-prop($value, $prop-name, $variation: '') {
+  @if $variation == '' {
+    #{$prop-name}: #{$value};
+  } @else {
+    #{$prop-name}-#{$variation}: #{$value};
+  }
+}
+
+@debug generate-responsive-class-name(666, p, xs, x);
