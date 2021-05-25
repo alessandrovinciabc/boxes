@@ -66,7 +66,7 @@
       $variation-suffix: list.nth($variation, 1);
       $variation-prop: list.nth($variation, 2);
       @for $iteration from 1 through $property-multiples {
-        #{generate-responsive-class-name($iteration, 'p', $prefix, $variation-suffix)} {
+        .#{generate-responsive-class-name($iteration, 'p', $prefix, $variation-suffix)} {
           @include spacing-prop(
             $iteration * $property-basis,
             'padding',
@@ -74,7 +74,7 @@
           );
         }
 
-        #{generate-responsive-class-name($iteration, 'm', $prefix, $variation-suffix)} {
+        .#{generate-responsive-class-name($iteration, 'm', $prefix, $variation-suffix)} {
           @include spacing-prop(
             $iteration * $property-basis,
             'margin',
