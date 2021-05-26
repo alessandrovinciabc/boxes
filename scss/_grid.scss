@@ -1,12 +1,10 @@
 @use 'sass:list';
 @use 'sass:map';
 
-.container {
-  .row {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat($columns, 1fr);
-  }
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat($columns, minmax(0, 1fr));
 }
 
 //Responsive classes section
