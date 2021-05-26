@@ -30,7 +30,7 @@ $directions: (
   @return #{$base}#{$modifier}#{$new-middlefix}-#{$iteration};
 }
 
-@mixin spacing-prop($value, $prop-name, $variation: '') {
+@mixin general-single-prop($value, $prop-name, $variation: '') {
   @if $variation == '' {
     #{$prop-name}: #{$value};
   } @else {
@@ -38,4 +38,6 @@ $directions: (
   }
 }
 
-@debug generate-responsive-class-name(666, p, xs, x);
+//Display utilities
+
+$display-types: flex grid block inline inline-block;

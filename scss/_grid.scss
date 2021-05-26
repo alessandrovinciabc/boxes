@@ -35,12 +35,12 @@
   }
 }
 
-//Generate responsive column classes
 @for $i from 1 through length($grid-breakpoints) {
   $prefix: list.nth(list.nth($grid-breakpoints, $i), 1);
   $value: list.nth(list.nth($grid-breakpoints, $i), 2);
 
   @media screen and (min-width: $value) {
+    //Column classes
     @for $column from 1 through $columns {
       $new-postfix: null;
       @if $i == 1 {
@@ -67,7 +67,7 @@
       $variation-prop: list.nth($variation, 2);
       @for $iteration from 1 through $property-multiples {
         .#{generate-responsive-class-name($iteration, 'p', $prefix, $variation-suffix)} {
-          @include spacing-prop(
+          @include general-single-prop(
             $iteration * $property-basis,
             'padding',
             $variation-prop
@@ -75,12 +75,27 @@
         }
 
         .#{generate-responsive-class-name($iteration, 'm', $prefix, $variation-suffix)} {
-          @include spacing-prop(
+          @include general-single-prop(
             $iteration * $property-basis,
             'margin',
             $variation-prop
           );
         }
+      }
+    }
+
+    //Display utilities
+    @each $variation in $display-types {
+      $middle-stuff: null;
+
+      @if $i == 1 {
+        $middle-stuff: '';
+      } @else {
+        $middle-stuff: #{$prefix}-;
+      }
+
+      .d-#{$middle-stuff}#{$variation} {
+        display: #{$variation};
       }
     }
   }

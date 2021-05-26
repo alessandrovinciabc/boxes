@@ -409,6 +409,26 @@ table {
   .mb-5 {
     margin-bottom: 2.5rem;
   }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .d-grid {
+    display: grid;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .d-inline {
+    display: inline;
+  }
+
+  .d-inline-block {
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 576px) {
   .col-sm-1 {
@@ -673,6 +693,26 @@ table {
 
   .mb-sm-5 {
     margin-bottom: 2.5rem;
+  }
+
+  .d-sm-flex {
+    display: flex;
+  }
+
+  .d-sm-grid {
+    display: grid;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .d-sm-inline {
+    display: inline;
+  }
+
+  .d-sm-inline-block {
+    display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
@@ -939,6 +979,26 @@ table {
   .mb-md-5 {
     margin-bottom: 2.5rem;
   }
+
+  .d-md-flex {
+    display: flex;
+  }
+
+  .d-md-grid {
+    display: grid;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+
+  .d-md-inline {
+    display: inline;
+  }
+
+  .d-md-inline-block {
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 992px) {
   .col-lg-1 {
@@ -1203,6 +1263,26 @@ table {
 
   .mb-lg-5 {
     margin-bottom: 2.5rem;
+  }
+
+  .d-lg-flex {
+    display: flex;
+  }
+
+  .d-lg-grid {
+    display: grid;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-inline {
+    display: inline;
+  }
+
+  .d-lg-inline-block {
+    display: inline-block;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1469,6 +1549,26 @@ table {
   .mb-xl-5 {
     margin-bottom: 2.5rem;
   }
+
+  .d-xl-flex {
+    display: flex;
+  }
+
+  .d-xl-grid {
+    display: grid;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
+
+  .d-xl-inline {
+    display: inline;
+  }
+
+  .d-xl-inline-block {
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 1400px) {
   .col-xxl-1 {
@@ -1733,5 +1833,25 @@ table {
 
   .mb-xxl-5 {
     margin-bottom: 2.5rem;
+  }
+
+  .d-xxl-flex {
+    display: flex;
+  }
+
+  .d-xxl-grid {
+    display: grid;
+  }
+
+  .d-xxl-block {
+    display: block;
+  }
+
+  .d-xxl-inline {
+    display: inline;
+  }
+
+  .d-xxl-inline-block {
+    display: inline-block;
   }
 }
