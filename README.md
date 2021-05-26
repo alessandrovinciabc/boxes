@@ -52,7 +52,10 @@ To create a new grid, just add the class of `grid` to an element. Each grid is d
 
 Now that we have a new grid, we can add elements to it and declare how much space they should take through the column classes.
 
-`col-{n1-16}`
+```
+col-{n1-16}
+```
+
 Go [here](#Breakpoints) for responsive variations.
 
 Like this:
@@ -96,7 +99,9 @@ We can also add gaps in between the columns through the `gap-{n1-5}` class. Each
 
 The grid can also be made responsive through the use of breakpoint variations with a pattern like this:
 
-`col-{breakpoint-name}-12`
+```
+col-{breakpoint-name}-12
+```
 
 These are the default breakpoints (can be modified):
 
@@ -119,20 +124,26 @@ Note: the 'xs' breakpoint is the default one for all utility classes without a b
 
 You can add margin and padding through these classes:
 
-`m-{n1-5}`
-`m{direction}-{n1-5}`
+```
+m-{n1-5}
+m{direction}-{n1-5}
 
-`mx-{n1-5}`
-`my-{n1-5}`
-`mx-auto`
+mx-{n1-5}
+my-{n1-5}
+
+mx-auto
+```
 
 Or with responsive variations:
-`m-{brekapoint-name}-{n1-5}`
-`m{direction}-{breakpoint-name}-{n1-5}`
 
-`mx-{brekapoint-name}-{n1-5}`
-`my-{brekapoint-name}-{n1-5}`
-`mx-{breakpoint-name}-auto`
+```
+m-{brekapoint-name}-{n1-5}
+m{direction}-{breakpoint-name}-{n1-5}
+
+mx-{brekapoint-name}-{n1-5}
+my-{brekapoint-name}-{n1-5}
+mx-{breakpoint-name}-auto
+```
 
 Directions:
 
@@ -149,8 +160,10 @@ $directions: (
 
 Change the display property of an element:
 
-`d-{value}`
-`d-{breakpoint-name}-{value}`
+```
+d-{value}
+d-{breakpoint-name}-{value}
+```
 
 Possible values:
 
@@ -162,18 +175,23 @@ $display-types: flex grid block inline inline-block none;
 
 Align and justify items inside of grids:
 
-`galign-items-{value}`
-`gjustify-items-{value}`
+```
+galign-items-{value}
+gjustify-items-{value}
 
-`galign-self-{value}`
-`gjustify-self-{value}`
+galign-self-{value}
+gjustify-self-{value}
+```
 
 Responsive:
-`galign-items-{breakpoint-name}-{value}`
-`gjustify-items-{breakpoint-name}-{value}`
 
-`galign-self-{breakpoint-name}-{value}`
-`gjustify-self-{breakpoint-name}-{value}`
+```
+galign-items-{breakpoint-name}-{value}
+gjustify-items-{breakpoint-name}-{value}
+
+galign-self-{breakpoint-name}-{value}
+gjustify-self-{breakpoint-name}-{value}
+```
 
 Possible values:
 
