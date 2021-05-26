@@ -44,3 +44,10 @@ $display-types: flex grid block inline inline-block none;
 
 //Grid items utilities
 $alignment-values: center start end stretch;
+
+.translate-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

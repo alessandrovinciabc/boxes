@@ -64,6 +64,13 @@ table {
   font-size: 16px;
 }
 
+.translate-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container .row {
   display: grid;
   width: 100%;
