@@ -1,5 +1,4 @@
 @use 'sass:list';
-@use 'sass:meta';
 @use 'sass:map';
 
 .container {
@@ -8,16 +7,6 @@
     width: 100%;
     grid-template-columns: repeat($columns, 1fr);
   }
-}
-
-//Generate gap classes
-@mixin horizontal-gaps($multiplier) {
-  grid-gap: $property-basis * $multiplier;
-}
-
-@mixin vertical-gaps($multiplier) {
-  margin-top: $property-basis * $multiplier;
-  margin-bottom: $property-basis * $multiplier;
 }
 
 //Responsive classes section
@@ -72,6 +61,10 @@
 
     //Grid gaps and compound margin/padding utilities
     @for $iteration from 1 through $property-multiples {
+      .gap-#{$middle-stuff}#{$iteration} {
+        gap: $property-basis * $iteration;
+      }
+
       $op-result: $property-basis * $iteration;
 
       .mx-#{$middle-stuff}#{$iteration} {
@@ -82,19 +75,6 @@
       .my-#{$middle-stuff}#{$iteration} {
         margin-top: $op-result;
         margin-bottom: $op-result;
-      }
-
-      .gap-#{$middle-stuff}#{$iteration} {
-        @include horizontal-gaps($iteration);
-        @include vertical-gaps($iteration);
-      }
-
-      .gapx-#{$middle-stuff}#{$i} {
-        @include horizontal-gaps($iteration);
-      }
-
-      .gapy-#{$middle-stuff}#{$i} {
-        @include vertical-gaps($iteration);
       }
     }
 

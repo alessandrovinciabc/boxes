@@ -335,6 +335,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-1 {
+    gap: 0.5rem;
+  }
+
   .mx-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -345,19 +349,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-1 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-1 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-2 {
+    gap: 1rem;
   }
 
   .mx-2 {
@@ -370,19 +363,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-1 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-1 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-3 {
+    gap: 1.5rem;
   }
 
   .mx-3 {
@@ -395,19 +377,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-1 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-1 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-4 {
+    gap: 2rem;
   }
 
   .mx-4 {
@@ -420,19 +391,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-1 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-5 {
+    gap: 2.5rem;
   }
 
   .mx-5 {
@@ -441,21 +401,6 @@ table {
   }
 
   .my-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-1 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-1 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -750,6 +695,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-sm-1 {
+    gap: 0.5rem;
+  }
+
   .mx-sm-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -760,19 +709,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-sm-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-sm-2 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-sm-2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-sm-2 {
+    gap: 1rem;
   }
 
   .mx-sm-2 {
@@ -785,19 +723,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-sm-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-sm-2 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-sm-2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-sm-3 {
+    gap: 1.5rem;
   }
 
   .mx-sm-3 {
@@ -810,19 +737,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-sm-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-sm-2 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-sm-2 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-sm-4 {
+    gap: 2rem;
   }
 
   .mx-sm-4 {
@@ -835,19 +751,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-sm-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-sm-2 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-sm-2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-sm-5 {
+    gap: 2.5rem;
   }
 
   .mx-sm-5 {
@@ -856,21 +761,6 @@ table {
   }
 
   .my-sm-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-sm-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-sm-2 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-sm-2 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -1165,6 +1055,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-md-1 {
+    gap: 0.5rem;
+  }
+
   .mx-md-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -1175,19 +1069,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-md-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-md-3 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-md-3 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-md-2 {
+    gap: 1rem;
   }
 
   .mx-md-2 {
@@ -1200,19 +1083,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-md-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-md-3 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-md-3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-md-3 {
+    gap: 1.5rem;
   }
 
   .mx-md-3 {
@@ -1225,19 +1097,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-md-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-md-3 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-md-3 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-md-4 {
+    gap: 2rem;
   }
 
   .mx-md-4 {
@@ -1250,19 +1111,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-md-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-md-3 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-md-3 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-md-5 {
+    gap: 2.5rem;
   }
 
   .mx-md-5 {
@@ -1271,21 +1121,6 @@ table {
   }
 
   .my-md-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-md-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-md-3 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-md-3 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -1580,6 +1415,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-lg-1 {
+    gap: 0.5rem;
+  }
+
   .mx-lg-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -1590,19 +1429,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-lg-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-lg-4 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-lg-4 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-lg-2 {
+    gap: 1rem;
   }
 
   .mx-lg-2 {
@@ -1615,19 +1443,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-lg-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-lg-4 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-lg-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-lg-3 {
+    gap: 1.5rem;
   }
 
   .mx-lg-3 {
@@ -1640,19 +1457,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-lg-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-lg-4 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-lg-4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-lg-4 {
+    gap: 2rem;
   }
 
   .mx-lg-4 {
@@ -1665,19 +1471,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-lg-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-lg-4 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-lg-4 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-lg-5 {
+    gap: 2.5rem;
   }
 
   .mx-lg-5 {
@@ -1686,21 +1481,6 @@ table {
   }
 
   .my-lg-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-lg-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-lg-4 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-lg-4 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -1995,6 +1775,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-xl-1 {
+    gap: 0.5rem;
+  }
+
   .mx-xl-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -2005,19 +1789,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-xl-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-xl-5 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-xl-5 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-xl-2 {
+    gap: 1rem;
   }
 
   .mx-xl-2 {
@@ -2030,19 +1803,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-xl-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-xl-5 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-xl-5 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-xl-3 {
+    gap: 1.5rem;
   }
 
   .mx-xl-3 {
@@ -2055,19 +1817,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-xl-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-xl-5 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-xl-5 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-xl-4 {
+    gap: 2rem;
   }
 
   .mx-xl-4 {
@@ -2080,19 +1831,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-xl-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-xl-5 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-xl-5 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-xl-5 {
+    gap: 2.5rem;
   }
 
   .mx-xl-5 {
@@ -2101,21 +1841,6 @@ table {
   }
 
   .my-xl-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-xl-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-xl-5 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-xl-5 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
@@ -2410,6 +2135,10 @@ table {
     margin-bottom: 2.5rem;
   }
 
+  .gap-xxl-1 {
+    gap: 0.5rem;
+  }
+
   .mx-xxl-1 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -2420,19 +2149,8 @@ table {
     margin-bottom: 0.5rem;
   }
 
-  .gap-xxl-1 {
-    grid-gap: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .gapx-xxl-6 {
-    grid-gap: 0.5rem;
-  }
-
-  .gapy-xxl-6 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  .gap-xxl-2 {
+    gap: 1rem;
   }
 
   .mx-xxl-2 {
@@ -2445,19 +2163,8 @@ table {
     margin-bottom: 1rem;
   }
 
-  .gap-xxl-2 {
-    grid-gap: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .gapx-xxl-6 {
-    grid-gap: 1rem;
-  }
-
-  .gapy-xxl-6 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .gap-xxl-3 {
+    gap: 1.5rem;
   }
 
   .mx-xxl-3 {
@@ -2470,19 +2177,8 @@ table {
     margin-bottom: 1.5rem;
   }
 
-  .gap-xxl-3 {
-    grid-gap: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .gapx-xxl-6 {
-    grid-gap: 1.5rem;
-  }
-
-  .gapy-xxl-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .gap-xxl-4 {
+    gap: 2rem;
   }
 
   .mx-xxl-4 {
@@ -2495,19 +2191,8 @@ table {
     margin-bottom: 2rem;
   }
 
-  .gap-xxl-4 {
-    grid-gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .gapx-xxl-6 {
-    grid-gap: 2rem;
-  }
-
-  .gapy-xxl-6 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .gap-xxl-5 {
+    gap: 2.5rem;
   }
 
   .mx-xxl-5 {
@@ -2516,21 +2201,6 @@ table {
   }
 
   .my-xxl-5 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gap-xxl-5 {
-    grid-gap: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .gapx-xxl-6 {
-    grid-gap: 2.5rem;
-  }
-
-  .gapy-xxl-6 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
