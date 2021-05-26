@@ -1,6 +1,6 @@
 # ■boxes■
 
-Simple grid-based CSS framework.
+Simple grid-based CSS framework
 
 ## Table of contents
 
