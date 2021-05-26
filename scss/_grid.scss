@@ -89,5 +89,23 @@
         display: #{$variation};
       }
     }
+
+    @each $variation in $alignment-values {
+      .galign-items-#{$middle-stuff}#{$variation} {
+        align-items: #{$variation};
+      }
+
+      .gjustify-items-#{$middle-stuff}#{$variation} {
+        justify-items: #{$variation};
+      }
+
+      .galign-self-#{$middle-stuff}#{$variation} {
+        align-self: #{$variation};
+      }
+
+      .gjustify-self-#{$middle-stuff}#{$variation} {
+        justify-self: #{$variation};
+      }
+    }
   }
 }

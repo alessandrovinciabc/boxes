@@ -429,6 +429,70 @@ table {
   .d-inline-block {
     display: inline-block;
   }
+
+  .galign-items-center {
+    align-items: center;
+  }
+
+  .gjustify-items-center {
+    justify-items: center;
+  }
+
+  .galign-self-center {
+    align-self: center;
+  }
+
+  .gjustify-self-center {
+    justify-self: center;
+  }
+
+  .galign-items-start {
+    align-items: start;
+  }
+
+  .gjustify-items-start {
+    justify-items: start;
+  }
+
+  .galign-self-start {
+    align-self: start;
+  }
+
+  .gjustify-self-start {
+    justify-self: start;
+  }
+
+  .galign-items-end {
+    align-items: end;
+  }
+
+  .gjustify-items-end {
+    justify-items: end;
+  }
+
+  .galign-self-end {
+    align-self: end;
+  }
+
+  .gjustify-self-end {
+    justify-self: end;
+  }
+
+  .galign-items-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-stretch {
+    justify-self: stretch;
+  }
 }
 @media screen and (min-width: 576px) {
   .col-sm-1 {
@@ -788,6 +852,70 @@ table {
 
   .d-sm-inline-block {
     display: inline-block;
+  }
+
+  .galign-items-sm-center {
+    align-items: center;
+  }
+
+  .gjustify-items-sm-center {
+    justify-items: center;
+  }
+
+  .galign-self-sm-center {
+    align-self: center;
+  }
+
+  .gjustify-self-sm-center {
+    justify-self: center;
+  }
+
+  .galign-items-sm-start {
+    align-items: start;
+  }
+
+  .gjustify-items-sm-start {
+    justify-items: start;
+  }
+
+  .galign-self-sm-start {
+    align-self: start;
+  }
+
+  .gjustify-self-sm-start {
+    justify-self: start;
+  }
+
+  .galign-items-sm-end {
+    align-items: end;
+  }
+
+  .gjustify-items-sm-end {
+    justify-items: end;
+  }
+
+  .galign-self-sm-end {
+    align-self: end;
+  }
+
+  .gjustify-self-sm-end {
+    justify-self: end;
+  }
+
+  .galign-items-sm-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-sm-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-sm-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-sm-stretch {
+    justify-self: stretch;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1149,6 +1277,70 @@ table {
   .d-md-inline-block {
     display: inline-block;
   }
+
+  .galign-items-md-center {
+    align-items: center;
+  }
+
+  .gjustify-items-md-center {
+    justify-items: center;
+  }
+
+  .galign-self-md-center {
+    align-self: center;
+  }
+
+  .gjustify-self-md-center {
+    justify-self: center;
+  }
+
+  .galign-items-md-start {
+    align-items: start;
+  }
+
+  .gjustify-items-md-start {
+    justify-items: start;
+  }
+
+  .galign-self-md-start {
+    align-self: start;
+  }
+
+  .gjustify-self-md-start {
+    justify-self: start;
+  }
+
+  .galign-items-md-end {
+    align-items: end;
+  }
+
+  .gjustify-items-md-end {
+    justify-items: end;
+  }
+
+  .galign-self-md-end {
+    align-self: end;
+  }
+
+  .gjustify-self-md-end {
+    justify-self: end;
+  }
+
+  .galign-items-md-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-md-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-md-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-md-stretch {
+    justify-self: stretch;
+  }
 }
 @media screen and (min-width: 992px) {
   .col-lg-1 {
@@ -1508,6 +1700,70 @@ table {
 
   .d-lg-inline-block {
     display: inline-block;
+  }
+
+  .galign-items-lg-center {
+    align-items: center;
+  }
+
+  .gjustify-items-lg-center {
+    justify-items: center;
+  }
+
+  .galign-self-lg-center {
+    align-self: center;
+  }
+
+  .gjustify-self-lg-center {
+    justify-self: center;
+  }
+
+  .galign-items-lg-start {
+    align-items: start;
+  }
+
+  .gjustify-items-lg-start {
+    justify-items: start;
+  }
+
+  .galign-self-lg-start {
+    align-self: start;
+  }
+
+  .gjustify-self-lg-start {
+    justify-self: start;
+  }
+
+  .galign-items-lg-end {
+    align-items: end;
+  }
+
+  .gjustify-items-lg-end {
+    justify-items: end;
+  }
+
+  .galign-self-lg-end {
+    align-self: end;
+  }
+
+  .gjustify-self-lg-end {
+    justify-self: end;
+  }
+
+  .galign-items-lg-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-lg-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-lg-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-lg-stretch {
+    justify-self: stretch;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1869,6 +2125,70 @@ table {
   .d-xl-inline-block {
     display: inline-block;
   }
+
+  .galign-items-xl-center {
+    align-items: center;
+  }
+
+  .gjustify-items-xl-center {
+    justify-items: center;
+  }
+
+  .galign-self-xl-center {
+    align-self: center;
+  }
+
+  .gjustify-self-xl-center {
+    justify-self: center;
+  }
+
+  .galign-items-xl-start {
+    align-items: start;
+  }
+
+  .gjustify-items-xl-start {
+    justify-items: start;
+  }
+
+  .galign-self-xl-start {
+    align-self: start;
+  }
+
+  .gjustify-self-xl-start {
+    justify-self: start;
+  }
+
+  .galign-items-xl-end {
+    align-items: end;
+  }
+
+  .gjustify-items-xl-end {
+    justify-items: end;
+  }
+
+  .galign-self-xl-end {
+    align-self: end;
+  }
+
+  .gjustify-self-xl-end {
+    justify-self: end;
+  }
+
+  .galign-items-xl-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-xl-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-xl-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-xl-stretch {
+    justify-self: stretch;
+  }
 }
 @media screen and (min-width: 1400px) {
   .col-xxl-1 {
@@ -2228,5 +2548,69 @@ table {
 
   .d-xxl-inline-block {
     display: inline-block;
+  }
+
+  .galign-items-xxl-center {
+    align-items: center;
+  }
+
+  .gjustify-items-xxl-center {
+    justify-items: center;
+  }
+
+  .galign-self-xxl-center {
+    align-self: center;
+  }
+
+  .gjustify-self-xxl-center {
+    justify-self: center;
+  }
+
+  .galign-items-xxl-start {
+    align-items: start;
+  }
+
+  .gjustify-items-xxl-start {
+    justify-items: start;
+  }
+
+  .galign-self-xxl-start {
+    align-self: start;
+  }
+
+  .gjustify-self-xxl-start {
+    justify-self: start;
+  }
+
+  .galign-items-xxl-end {
+    align-items: end;
+  }
+
+  .gjustify-items-xxl-end {
+    justify-items: end;
+  }
+
+  .galign-self-xxl-end {
+    align-self: end;
+  }
+
+  .gjustify-self-xxl-end {
+    justify-self: end;
+  }
+
+  .galign-items-xxl-stretch {
+    align-items: stretch;
+  }
+
+  .gjustify-items-xxl-stretch {
+    justify-items: stretch;
+  }
+
+  .galign-self-xxl-stretch {
+    align-self: stretch;
+  }
+
+  .gjustify-self-xxl-stretch {
+    justify-self: stretch;
   }
 }
