@@ -40,7 +40,7 @@ $directions: (
 
 //Display utilities
 
-$display-types: flex grid block inline inline-block;
+$display-types: flex grid block inline inline-block none;
 
 //Grid items utilities
 $alignment-values: center start end stretch;
