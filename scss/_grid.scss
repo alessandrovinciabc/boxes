@@ -20,21 +20,6 @@
   margin-bottom: $property-basis * $multiplier;
 }
 
-@for $i from 1 through $property-multiples {
-  .gap-#{$i} {
-    @include horizontal-gaps($i);
-    @include vertical-gaps($i);
-  }
-
-  .gapx-#{$i} {
-    @include horizontal-gaps($i);
-  }
-
-  .gapy-#{$i} {
-    @include vertical-gaps($i);
-  }
-}
-
 @for $i from 1 through length($grid-breakpoints) {
   $prefix: list.nth(list.nth($grid-breakpoints, $i), 1);
   $value: list.nth(list.nth($grid-breakpoints, $i), 2);
@@ -82,6 +67,45 @@
           );
         }
       }
+    }
+
+    //Grid gaps and compound margin/padding utilities
+    $middle-stuff: null;
+    @if $i == 1 {
+      $middle-stuff: '';
+    } @else {
+      $middle-stuff: #{$prefix}-;
+    }
+    @for $iteration from 1 through $property-multiples {
+      $op-result: $property-basis * $iteration;
+
+      .mx-#{$middle-stuff}#{$iteration} {
+        margin-left: $op-result;
+        margin-right: $op-result;
+      }
+
+      .my-#{$middle-stuff}#{$iteration} {
+        margin-top: $op-result;
+        margin-bottom: $op-result;
+      }
+
+      .gap-#{$middle-stuff}#{$iteration} {
+        @include horizontal-gaps($iteration);
+        @include vertical-gaps($iteration);
+      }
+
+      .gapx-#{$middle-stuff}#{$i} {
+        @include horizontal-gaps($iteration);
+      }
+
+      .gapy-#{$middle-stuff}#{$i} {
+        @include vertical-gaps($iteration);
+      }
+    }
+
+    .mx-#{$middle-stuff}auto {
+      margin-right: auto;
+      margin-left: auto;
     }
 
     //Display utilities
