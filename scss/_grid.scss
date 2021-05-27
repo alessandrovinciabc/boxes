@@ -74,6 +74,16 @@
         margin-top: $op-result;
         margin-bottom: $op-result;
       }
+
+      .px-#{$middle-stuff}#{$iteration} {
+        padding-left: $op-result;
+        padding-right: $op-result;
+      }
+
+      .py-#{$middle-stuff}#{$iteration} {
+        padding-top: $op-result;
+        padding-bottom: $op-result;
+      }
     }
 
     .mx-#{$middle-stuff}auto {
