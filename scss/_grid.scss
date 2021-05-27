@@ -38,7 +38,7 @@
     {
       $variation-suffix: list.nth($variation, 1);
       $variation-prop: list.nth($variation, 2);
-      @for $iteration from 1 through $property-multiples {
+      @for $iteration from 0 through $property-multiples {
         .#{generate-responsive-class-name($iteration, 'p', $prefix, $variation-suffix)} {
           @include general-single-prop(
             $iteration * $property-basis,
@@ -58,7 +58,7 @@
     }
 
     //Grid gaps and compound margin/padding utilities
-    @for $iteration from 1 through $property-multiples {
+    @for $iteration from 0 through $property-multiples {
       .gap-#{$middle-stuff}#{$iteration} {
         gap: $property-basis * $iteration;
       }
@@ -88,7 +88,7 @@
       }
     }
 
-    @each $variation in $alignment-values {
+    @each $variation in $grid-alignment-values {
       .galign-items-#{$middle-stuff}#{$variation} {
         align-items: #{$variation};
       }

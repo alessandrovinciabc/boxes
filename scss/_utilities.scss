@@ -42,9 +42,10 @@ $directions: (
 
 $display-types: flex grid block inline inline-block none;
 
-//Grid items utilities
-$alignment-values: center start end stretch;
+//Grid/Flex
+$grid-alignment-values: center start end stretch;
 
+//Positioning
 .translate-middle {
   position: absolute;
   top: 50%;

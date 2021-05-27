@@ -93,7 +93,7 @@ Result:
 
 #### Gaps
 
-We can also add gaps in between the columns through the `gap-{n1-5}` class. Each increment is multiplied by the spacing variable inside `main.scss` to get the final value.
+We can also add gaps in between the columns through the `gap-{n0-5}` class. Each increment is multiplied by the spacing variable inside `main.scss` to get the final value. Supports breakpoint variations.
 
 #### Breakpoints
 
@@ -125,11 +125,11 @@ Note: the 'xs' breakpoint is the default one for all utility classes without a b
 You can add margin and padding through these classes:
 
 ```
-m-{n1-5}
-m{direction}-{n1-5}
+m-{n0-5}
+m{direction}-{n0-5}
 
-mx-{n1-5}
-my-{n1-5}
+mx-{n0-5}
+my-{n0-5}
 
 mx-auto
 ```
@@ -137,11 +137,11 @@ mx-auto
 Or with responsive variations:
 
 ```
-m-{brekapoint-name}-{n1-5}
-m{direction}-{breakpoint-name}-{n1-5}
+m-{brekapoint-name}-{n0-5}
+m{direction}-{breakpoint-name}-{n0-5}
 
-mx-{brekapoint-name}-{n1-5}
-my-{brekapoint-name}-{n1-5}
+mx-{brekapoint-name}-{n0-5}
+my-{brekapoint-name}-{n0-5}
 mx-{breakpoint-name}-auto
 ```
 
