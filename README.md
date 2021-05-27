@@ -13,8 +13,8 @@ Simple grid-based CSS framework
   - [Utilities](#utilities)
     - [Margin and Padding](#margin-and-padding)
     - [Display](#display)
-    - [Grid items](#grid-items)
-    - [Flex](#flex-items)
+    - [Grid](#grid)
+    - [Flex](#flex)
     - [Absolute centering](#absolute-centering)
   - [Configuration Options](#configuration-options)
 - [License](#license)
@@ -172,9 +172,9 @@ Possible values:
 $display-types: flex grid block inline inline-block none;
 ```
 
-#### Grid items
+#### Grid
 
-Align and justify items inside of grids:
+Align and justify items or content inside of grids:
 
 ```
 galign-items-{value}
@@ -182,6 +182,9 @@ gjustify-items-{value}
 
 galign-self-{value}
 gjustify-self-{value}
+
+gjustify-content-{value}
+galign-content-{value}
 ```
 
 Responsive:
@@ -225,7 +228,7 @@ flex-direction-{breakpoint-name}-{value}
 flex-wrap-{breakpoint-name}-{value}
 ```
 
-Values (respecting legal values):
+Values (respecting legal ones):
 
 ```scss
 $flex-align-values: center flex-start flex-end stretch;
