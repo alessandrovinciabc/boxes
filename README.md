@@ -14,6 +14,7 @@ Simple grid-based CSS framework
     - [Margin and Padding](#margin-and-padding)
     - [Display](#display)
     - [Grid items](#grid-items)
+    - [Flex](#flex-items)
     - [Absolute centering](#absolute-centering)
   - [Configuration Options](#configuration-options)
 - [License](#license)
@@ -191,12 +192,50 @@ gjustify-items-{breakpoint-name}-{value}
 
 galign-self-{breakpoint-name}-{value}
 gjustify-self-{breakpoint-name}-{value}
+
+gjustify-content-{breakpoint-name}-{value}
+galign-content-{breakpoint-name}-{value}
 ```
 
 Possible values:
 
 ```scss
 $alignment-values: center start end stretch;
+```
+
+For align-content and justify-content:
+
+```scss
+$grid-justify-values: center start end stretch space-around space-between
+  space-evenly;
+```
+
+#### Flex
+
+```
+falign-items-{breakpoint-name}-{value}
+falign-content-{breakpoint-name}-{value}
+falign-self-{breakpoint-name}-{value}
+
+fjustify-items-{breakpoint-name}-{value}
+fjustify-content-{breakpoint-name}-{value}
+
+
+flex-direction-{breakpoint-name}-{value}
+flex-wrap-{breakpoint-name}-{value}
+```
+
+Values (respecting legal values):
+
+```scss
+$flex-align-values: center flex-start flex-end stretch;
+$flex-justify-values: list.join(
+  flex-align-values,
+  space-between space-around space-evenly
+);
+
+$flex-directions: row column column-reverse row-reverse;
+$flex-wraps: nowrap wrap wrap-reverse;
 ```
 
 #### Absolute centering

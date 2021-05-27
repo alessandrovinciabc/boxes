@@ -88,6 +88,7 @@
       }
     }
 
+    //Grid align/justify
     @each $variation in $grid-alignment-values {
       .galign-items-#{$middle-stuff}#{$variation} {
         align-items: #{$variation};
@@ -103,6 +104,54 @@
 
       .gjustify-self-#{$middle-stuff}#{$variation} {
         justify-self: #{$variation};
+      }
+    }
+
+    //Grid justify-content/align-content
+    @each $variation in $grid-justify-values {
+      .gjustify-content-#{$middle-stuff}#{$variation} {
+        justify-content: #{$variation};
+      }
+
+      .galign-content-#{$middle-stuff}#{$variation} {
+        align-content: #{$variation};
+      }
+    }
+
+    //Flex
+    @each $variation in $flex-align-values {
+      .falign-items-#{$middle-stuff}#{$variation} {
+        align-items: #{$variation};
+      }
+
+      .falign-self-#{$middle-stuff}#{$variation} {
+        align-self: #{$variation};
+      }
+
+      .fjustify-items-#{$middle-stuff}#{$variation} {
+        justify-items: #{$variation};
+      }
+    }
+
+    @each $variation in $flex-justify-values {
+      .falign-content-#{$middle-stuff}#{$variation} {
+        align-content: #{$variation};
+      }
+
+      .fjustify-content-#{$middle-stuff}#{$variation} {
+        justify-content: #{$variation};
+      }
+    }
+
+    @each $variation in $flex-directions {
+      .flex-direction-#{$middle-stuff}#{$variation} {
+        flex-direction: #{$variation};
+      }
+    }
+
+    @each $variation in $flex-wraps {
+      .flex-wrap-#{$middle-stuff}#{$variation} {
+        flex-wrap: #{$variation};
       }
     }
   }

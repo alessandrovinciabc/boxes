@@ -44,6 +44,17 @@ $display-types: flex grid block inline inline-block none;
 
 //Grid/Flex
 $grid-alignment-values: center start end stretch;
+$grid-justify-values: center start end stretch space-around space-between
+  space-evenly;
+
+$flex-align-values: center flex-start flex-end stretch;
+$flex-justify-values: list.join(
+  $flex-align-values,
+  space-between space-around space-evenly
+);
+
+$flex-directions: row column column-reverse row-reverse;
+$flex-wraps: nowrap wrap wrap-reverse;
 
 //Positioning
 .translate-middle {
