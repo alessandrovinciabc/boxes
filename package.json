@@ -10,8 +10,7 @@
     "compile": "sass --no-source-map scss:dist",
     "prebuild": "npm-run-all -s clean compile",
     "build": "npm-run-all -s compile-minify useprefixer compile",
-    "postbuild": "echo Build completed.",
-    "publish": "npm publish --access public"
+    "postbuild": "echo Build completed."
   },
   "repository": {
     "type": "git",
